@@ -3,6 +3,7 @@ task.spawn(function()
     local pigModel = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/pig.rbxm"
     local grassShortModel = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/grass.rbxm"
     local breakingParticlesPlaceholderModel = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/breakingparticlesplaceholder.rbxm"
+    local creeperModel = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/creeper.rbxm"
     local cave1 = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/Cave1.ogg"
     local cave2 = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/Cave2.ogg"
     local cave3 = "https://raw.githubusercontent.com/Minecraft-Assets-Roblox/Cave3.ogg"
@@ -35,6 +36,7 @@ task.spawn(function()
         local pigLoad = G.LoadGithubModel(pigModel, "Pig")
         local grassShortLoad = G.LoadGithubModel(grassShortModel, "Grass_Short")
         local breakingParticlesPlaceholderLoad = G.LoadGithubModel(breakingParticlesPlaceholderModel, "Breaking_Particles")
+        local creeperLoad = G.LoadGithubModel(creeperModel, "Creeper")
     end
     if G.LoadGithubOGGAudio and G.LoadGithubAudio then
         local cave1Load = G.LoadGithubOGGAudio(cave1, "Cave1")
